@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dominos</string>
+
+    <string name="american_domino">American Domino</string>
+    <string name="player_one_edit_text">player one </string>
+    <string name="player_two_edit_text">player two </string>
+    <string name="player_three_edit_text">player three </string>
+    <string name="player_four_edit_text">player four </string>
+    <string name="next_button">Next</string>
+
+    <string name="text_score">Score</string>
+    <string name="best_play_btn">Best Piece to Play</string>
+    <string name="text_name">player_name</string>
+
+</resources>

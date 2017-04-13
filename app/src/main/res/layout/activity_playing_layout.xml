@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/linearPlay"
+    android:weightSum="1">
+    <!--android:background="#dcd9c6"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_text"
+        android:text="@string/text_score"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#4f8452"
+        android:textSize="70dp"/>
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:columnWidth="90dp"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="5dp"></GridView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/best_play_activity"
+        android:text="@string/best_play_btn"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textColor="#4f8452"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="100dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+</LinearLayout>
